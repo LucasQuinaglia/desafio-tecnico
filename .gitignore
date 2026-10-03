@@ -1,0 +1,43 @@
+## --- .NET / C# Output Folders ---
+[Bb]in/
+[Oo]bj/
+out/
+[LLEe]og/
+[Ll]ogs/
+
+## --- Visual Studio Code Settings ---
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## --- User-specific files & Temp files ---
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## --- Operating System Files ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+## --- Environment & Configs ---
+appsettings*.Development.json
+appsettings*.Local.json
+*.env
